@@ -1,6 +1,5 @@
 # Assign Leads
 
-
 ### Programing Langauage used
 
 1) Node 12
@@ -34,13 +33,19 @@
 2) git clone repo
 3) cd assign-leads
 4) npm i
-5) node main.js agents.csv leads.csv
+5) node main.js leads.csv agents.csv
+```
+
+### How to run
+```
+1) npm test
 ```
 
 ### Assumptions
 
 1) Weight will alway be positive and greater than zero
 2) ID should be postive and greater than zero
+3) Output leads and assigned agent
 
 
 ### Output Example
