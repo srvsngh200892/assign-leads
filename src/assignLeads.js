@@ -47,7 +47,7 @@ function doAssignment(agentData, leadsData) {
         return agentLeadsHash
       }
       // build agent and lead hasmap
-      agentLeadsHash[`${agent.ID} ${agent.Name}`] = agentLeadsHash[`${agent.ID} ${agent.Name}`] ? agentLeadsHash[`${agent.ID} ${agent.Name}`].concat([lead.Email]) : [lead.Email]
+      agentLeadsHash[`${lead.ID} ${lead.Email}`] = `${agent.ID} ${agent.Name}`
       weight--;
     }
   }

@@ -29,11 +29,9 @@ function isValidFileExtention(agentCsv, leadCsv) {
  * @param {object} data.
  */
 function printData(data) {
-    console.log("Leads            Agents ID & Name ")
+    console.log("Leads ID & Email         Agents ID & Name ")
     Object.keys(data).forEach(key=>{
-        data[key].forEach(value=>{
-            console.log(`${value}       ${key}`)
-        })
+        console.log(`${key}       ${data[key]}`)
     })
 }
 
